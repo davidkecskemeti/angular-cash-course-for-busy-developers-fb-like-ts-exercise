@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * Background
  Imagine you're working at Facebook and your job is to implement the "Like" functionality.
@@ -14,12 +16,10 @@
  Define this class in a separate module and use it in the main module. Simulate the scenario where the user clicks the like component.
  Display the total number of likes and whether the button is in the selected or unselected state on the console.
  **/
-import {Like} from "./like";
-
-let like = new Like();
+var like_1 = require("./like");
+var like = new like_1.Like();
 like.like();
 like.like();
-
-let like2 = new Like(10);
+var like2 = new like_1.Like(10);
 like2.like();
 like2.like();
